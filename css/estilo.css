@@ -56,6 +56,8 @@ a {
     color: palevioletred;
 
     text-transform: uppercase;
+
+    margin-left: 15px;
 }
 
 li {
@@ -88,4 +90,18 @@ body {
     padding-top: 100px;
     border-bottom: 8px blue solid;
     border-radius: 4px;
+}
+
+header{
+    background-color: green;
+    text-align: end;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+main{
+    background-color: bisque;
 }
