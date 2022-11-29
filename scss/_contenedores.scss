@@ -1,0 +1,18 @@
+.contenedor{
+    border: 3px rgb(38, 0, 128) solid;
+    padding: 20px;
+    margin: 5px 15px 10px 20px;
+    padding-top: 100px;
+    border-bottom: 8px blue solid;
+    border-radius: 4px;
+}
+
+.contenedor p:nth-child(2){
+    color: brown;
+    font-size: 20px;
+}
+
+.contenedor p:nth-child(3){
+    color: red;
+    font-size: 30px;
+}

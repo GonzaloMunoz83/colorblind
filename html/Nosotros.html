@@ -12,6 +12,7 @@
 <body>
     <header>
         <nav>
+          <div><img src="../img/logo.jpg" alt="imagen de un ojo" style="width: 10%;"></div>
             <ul>
                 <li><a href="../index.html">Inicio</a></li>
                 <li><a href="Clientes.html">Clientes</a></li>
@@ -27,68 +28,59 @@
 
     <H2>Contactate con Nosotros</H2>
 
-    <form>
-        <label for="nombre">Nombre</label>
-        <input type="text" id="nombre">
-        <br><br>
-        <label for="apellido">Apellido</label>
-        <input type="text" id="apellido">
-        <br><br>
-        <label for="telefono">Telefono</label>
-        <input type="numbers" id="telefono">
-        <br><br>
-        <textarea name="consulta" id="consulta" cols="30" rows="10"></textarea>
-        <br><br>
-        <div>
-            <label for="reset">Resetear formulario</label>
-            <input type="reset" id="resetear">
-            <br><br>
-        </div>        
+    <form class="row g-3 needs-validation" novalidate>
+      <div class="col-md-4 position-relative">
+        <label for="validationTooltip01" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="validationTooltip01" value="Diego" required>
+        <div class="valid-tooltip">
+          Pinta bien!
+        </div>
+      </div>
+      <div class="col-md-4 position-relative">
+        <label for="validationTooltip02" class="form-label">Apellido</label>
+        <input type="text" class="form-control" id="validationTooltip02" value="Maradona" required>
+        <div class="valid-tooltip">
+          Pinta mejor!
+        </div>
+      </div>
+      <div class="col-md-4 position-relative">
+        <label for="validationTooltipUsername" class="form-label">Username</label>
+        <div class="input-group has-validation">
+          <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+          <input type="text" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required>
+          <div class="invalid-tooltip">
+            Elegir un unico usuario.
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 position-relative">
+        <label for="validationTooltip03" class="form-label">Provincia</label>
+        <input type="text" class="form-control" id="validationTooltip03" required>
+        <div class="invalid-tooltip">
+          De donde nos contactas?
+        </div>
+      </div>
+      <div class="col-md-3 position-relative">
+        <label for="validationTooltip04" class="form-label">Ciudad</label>
+        <select class="form-select" id="validationTooltip04" required>
+          <option selected disabled value="">Selecciona...</option>
+          <option>...</option>
+        </select>
+        <div class="invalid-tooltip">
+          Selecciona tu ciudad.
+        </div>
+      </div>
+      <div class="col-md-3 position-relative">
+        <label for="validationTooltip05" class="form-label">C.P</label>
+        <input type="text" class="form-control" id="validationTooltip05" required>
+        <div class="invalid-tooltip">
+          Código postal.
+        </div>
+      </div>
+      <div class="col-12">
+        <button class="btn btn-primary" type="submit">ENVIAR</button>
+      </div>
     </form>
-
-    <form class="row g-3">
-        <div class="col-md-6">
-            <label for="inputEmail4" class="form-label">Email</label>
-            <input type="email" class="form-control" id="inputEmail4">
-            <br><br>
-        </div>
-        <div class="col-12">
-          <label for="inputAddress" class="form-label">Direccion</label>
-          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Av Alberdi">
-        <br><br>
-        </div>
-        <div class="col-md-6">
-          <label for="inputCity" class="form-label">Provincia</label>
-          <input type="text" class="form-control" id="inputCity">
-        <br><br>
-        </div>
-        <div class="col-md-4">
-          <label for="inputState" class="form-label">Ciudad</label>
-          <select id="inputState" class="form-select">
-            <option selected>Elija...</option>
-            <option>...</option>
-          </select>
-        <br><br>
-        </div>
-        <div class="col-md-2">
-          <label for="inputZip" class="form-label">Cod. Postal</label>
-          <input type="text" class="form-control" id="inputZip">
-        <br><br>
-        </div>
-        <div class="col-12">
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" id="gridCheck">
-            <label class="form-check-label" for="gridCheck">
-              Mantenerme informado
-            </label>
-        <br><br>  
-        </div>
-        </div>
-        <div class="col-12">
-          <button type="submit" class="btn btn-primary">Registrarme</button>
-        </div>
-      </form>
-      <br><br>
       <h3>Visita a nuestros clientes</h3>
     <li> 
       <a href="https://www.coca-cola.com.ar">Coca-Cola</a>

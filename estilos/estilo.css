@@ -6,14 +6,16 @@
     color: blue;
   }
 }
+
 @media (min-width: 601px) and (max-width: 900px) {
   .titMedias {
-    color: rgb(38, 0, 128);
+    color: #260080;
   }
   .texto {
     color: blueviolet;
   }
 }
+
 @media print and (min-width: 300px) {
   .titMedias {
     color: black;
@@ -22,6 +24,7 @@
     color: black;
   }
 }
+
 .titMedias {
   color: blueviolet;
 }
@@ -39,7 +42,7 @@
 }
 
 #parrafofooter4 {
-  color: rgb(42, 158, 203);
+  color: #2a9ecb;
 }
 
 #parrafofooter5 {
@@ -55,7 +58,7 @@ footer h2 {
 }
 
 footer {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 footer {
@@ -63,7 +66,7 @@ footer {
 }
 
 .contenedor {
-  border: 3px rgb(38, 0, 128) solid;
+  border: 3px #260080 solid;
   padding: 20px;
   margin: 5px 15px 10px 20px;
   padding-top: 100px;
@@ -86,7 +89,7 @@ p {
 }
 
 .parrafo {
-  color: rgb(54, 78, 8);
+  color: #364e08;
 }
 
 .parrafo {
@@ -96,7 +99,8 @@ p {
 }
 
 a {
-  text-decoration: dotted;
+  -webkit-text-decoration: dotted;
+          text-decoration: dotted;
   color: palevioletred;
   text-transform: uppercase;
   margin-left: 15px;
@@ -113,11 +117,11 @@ a {
 }
 
 .texto {
-  color: rgb(76, 74, 74);
+  color: #4c4a4a;
 }
 
 .parrafosConEstilo {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 20px;
   text-align: center;
   color: black;
@@ -126,7 +130,7 @@ a {
 h1 {
   color: blueviolet;
   font-size: 100px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .tituloPrincipal {
@@ -158,19 +162,29 @@ h1::first-letter {
 
 header {
   background-color: orange;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: initial;
-  justify-content: space-between;
+  -webkit-box-align: initial;
+      -ms-flex-align: initial;
+          align-items: initial;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
+
 header h1 {
   color: blueviolet;
 }
+
 header nav {
   background-color: orange;
 }
+
 header nav li {
   display: inline-block;
 }
+
 header nav li a {
   text-decoration: none;
   color: green;
@@ -178,8 +192,9 @@ header nav li a {
   text-transform: uppercase;
   font-size: 25px;
 }
+
 header nav li a:hover {
-  background-color: rgb(19, 232, 33);
+  background-color: #13e821;
 }
 
 body {
@@ -208,5 +223,4 @@ li {
   height: 200px;
   border: 3px solid;
 }
-
 /*# sourceMappingURL=estilo.css.map */

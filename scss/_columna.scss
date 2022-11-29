@@ -1,0 +1,54 @@
+header{
+    background-color: green;
+    text-align: end;
+}
+
+h1::first-letter {
+    text-transform: uppercase;
+    color: red;
+}
+
+header{
+    background-color: orange;
+    display: flex;
+    align-items: initial;
+    justify-content: space-between;
+
+    h1{
+        color: $color-slogan;
+    }
+
+    nav{
+        background-color: orange;
+
+        li{
+            display: inline-block;
+
+            a{
+                text-decoration: none;
+                color: green;
+                font-weight: bold;
+                text-transform: uppercase;
+                font-size: $tam-fuente - 20px;
+
+                &:hover{
+                    background-color: rgb(19, 232, 33);
+                }
+            }
+        }
+    }
+}
+
+body {
+    background-image: url(https://storage.googleapis.com/webdesignledger.pub.network/WDL/08841248-featured_image-1000x563.jpg);
+
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+    background-size: cover;
+}
+
+main{
+    background-color: bisque;
+}

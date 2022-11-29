@@ -1,0 +1,28 @@
+@media (max-width: 600px) {
+    .titMedias {
+      color: bisque;
+    }
+    .texto {
+      color: blue;
+    }
+  }
+  @media (min-width: 601px) and (max-width: 900px) {
+    .titMedias {
+      color: rgb(38, 0, 128);
+    }
+    .texto {
+      color: blueviolet;
+    }
+  }
+  @media print and (min-width: 300px) {
+    .titMedias {
+      color: black;
+    }
+    .texto {
+      color: black;
+    }
+  }
+
+  .titMedias{
+    color: blueviolet;
+  }
