@@ -1,5 +1,5 @@
 p{
-    color: grey;
+    color: black;
 }
 
 .parrafo {
@@ -35,7 +35,8 @@ a {
 }
 
 .texto{
-    color: rgb(76, 74, 74);
+    color:black;
+    font-weight: bolder;
 }
 
 @mixin parrafos{
