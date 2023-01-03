@@ -1,28 +1,26 @@
 @media (max-width: 600px) {
-    .titMedias {
+  .titMedias {
       color: bisque;
     }
-    .texto {
+  .texto {
       color: blue;
     }
   }
-  @media (min-width: 601px) and (max-width: 900px) {
-    .titMedias {
+@media (min-width: 350px) and (max-width: 900px) {
+  .titMedias {
       color: rgb(38, 0, 128);
+      text-align: left;
     }
-    .texto {
+  .texto {
       color: blueviolet;
     }
   }
-  @media print and (min-width: 300px) {
-    .titMedias {
+@media print and (min-width: 300px) {
+  .titMedias {
       color: black;
     }
-    .texto {
+  .texto {
       color: black;
     }
   }
 
-  .titMedias{
-    color: blueviolet;
-  }
