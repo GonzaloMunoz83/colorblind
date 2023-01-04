@@ -10,6 +10,7 @@
 @media (min-width: 350px) and (max-width: 900px) {
   .titMedias {
     color: #260080;
+    text-align: left;
   }
   .texto {
     color: blueviolet;
@@ -23,10 +24,6 @@
   .texto {
     color: black;
   }
-}
-
-.titMedias {
-  color: blueviolet;
 }
 
 #parrafofooter1 {
@@ -223,5 +220,8 @@ li {
   width: 200px;
   height: 200px;
   border: 3px solid;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
 }
 /*# sourceMappingURL=estilo.css.map */
